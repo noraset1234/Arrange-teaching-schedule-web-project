@@ -1,0 +1,78 @@
+/* EditCourseContent.css */
+
+/* Rounded rectangle style */
+.rounded-rectangle {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.file-upload {
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px; /* ปรับขนาด font size */
+  cursor: pointer;
+  display: grid; /* เพื่อใช้ grid layout */
+  place-items: center;
+}
+
+
+/* CSV table style */
+.csv-table {
+  margin-top: 100px;
+  /* ขยับตารางไปด้านล่าง 20px */
+  margin-left: 15px;
+  /* ขยับตารางไปด้านขวา 50px */
+  margin-right: 15px;
+}
+
+/* Data form style */
+.data-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Buttons style */
+.ant-btn-primary {
+  margin-right: 10px;
+}
+
+/* Alert modal style */
+.swal2-container {
+  z-index: 10000; /* Ensure it appears on top of other elements */
+}
+/* EditCourseContent.css */
+
+.data-form {
+  display: none;
+  position: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  z-index: 1000;
+}
+
+.data-form.show {
+  display: block;
+}
+.data-form-popup {
+  position: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.faculty-text {
+  text-align: center;
+  font-size: 40px;
+  position: absolute; 
+}
